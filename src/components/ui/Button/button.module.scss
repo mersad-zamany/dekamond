@@ -1,0 +1,46 @@
+.buttonElement {
+    background: #00d4ff;
+    backdrop-filter: blur(20px);
+    transition: .2s;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    outline: none;
+    font-weight: 500;
+
+    &:hover,
+    &:active {
+        opacity: .7;
+    }
+
+    &:focus,
+    &:active {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        -webkit-tap-highlight-color: transparent; // برای موبایل سافاری
+    }
+}
+
+.buttonSecondryElement {
+    background: #1e1e2e;
+    backdrop-filter: blur(20px);
+    transition: .3s;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    outline: none;
+    font-weight: 500;
+
+    &:hover,
+    &:active {
+        opacity: .7;
+    }
+
+    &:focus,
+    &:active {
+        outline: none;
+        box-shadow: none;
+        -webkit-tap-highlight-color: transparent; // برای موبایل سافاری
+    }
+}

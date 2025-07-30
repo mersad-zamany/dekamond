@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loading {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    color: #6b7280;
+}
+
+.menuItem {
+    padding: 10px;
+    border-radius: 7px;
+    
+    &.menuItemActive {
+        background-color: rgba(10, 10, 10, 0.20);
+    }
+}
